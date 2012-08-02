@@ -13,6 +13,10 @@
 		1EBD3E28153448FD006B1E49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EBD3E26153448FD006B1E49 /* InfoPlist.strings */; };
 		1EBD3E2A153448FD006B1E49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD3E29153448FD006B1E49 /* main.m */; };
 		1EBD3E2E153448FD006B1E49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD3E2D153448FD006B1E49 /* AppDelegate.m */; };
+		1EBD3E3515344953006B1E49 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EBD3E3415344953006B1E49 /* MainWindow.xib */; };
+		1EBD3E3B15346748006B1E49 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EBD3E3A15346748006B1E49 /* Icon.png */; };
+		1EBD3E3E1534675B006B1E49 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EBD3E3D1534675B006B1E49 /* Icon@2x.png */; };
+		1EBD3E4015346872006B1E49 /* QuizSplash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EBD3E3F15346872006B1E49 /* QuizSplash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,16 @@
 		1EBD3E1D153448FD006B1E49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1EBD3E1F153448FD006B1E49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1EBD3E21153448FD006B1E49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1EBD3E25153448FD006B1E49 /* Quiz-Info.plist */ = {isa = PBXFileReference; path = "Quiz-Info.plist"; sourceTree = "<group>"; };
+		1EBD3E25153448FD006B1E49 /* Quiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz-Info.plist"; sourceTree = "<group>"; };
 		1EBD3E27153448FD006B1E49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1EBD3E29153448FD006B1E49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1EBD3E2B153448FD006B1E49 /* Quiz-Prefix.pch */ = {isa = PBXFileReference; path = "Quiz-Prefix.pch"; sourceTree = "<group>"; };
-		1EBD3E2C153448FD006B1E49 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EBD3E2B153448FD006B1E49 /* Quiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quiz-Prefix.pch"; sourceTree = "<group>"; };
+		1EBD3E2C153448FD006B1E49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1EBD3E2D153448FD006B1E49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EBD3E3415344953006B1E49 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		1EBD3E3A15346748006B1E49 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1EBD3E3D1534675B006B1E49 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		1EBD3E3F15346872006B1E49 /* QuizSplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuizSplash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,10 @@
 		1EBD3E0E153448FC006B1E49 = {
 			isa = PBXGroup;
 			children = (
+				1EBD3E3F15346872006B1E49 /* QuizSplash.png */,
+				1EBD3E3D1534675B006B1E49 /* Icon@2x.png */,
+				1EBD3E3A15346748006B1E49 /* Icon.png */,
+				1EBD3E3415344953006B1E49 /* MainWindow.xib */,
 				1EBD3E23153448FD006B1E49 /* Quiz */,
 				1EBD3E1C153448FD006B1E49 /* Frameworks */,
 				1EBD3E1A153448FD006B1E49 /* Products */,
@@ -141,6 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EBD3E28153448FD006B1E49 /* InfoPlist.strings in Resources */,
+				1EBD3E3515344953006B1E49 /* MainWindow.xib in Resources */,
+				1EBD3E3B15346748006B1E49 /* Icon.png in Resources */,
+				1EBD3E3E1534675B006B1E49 /* Icon@2x.png in Resources */,
+				1EBD3E4015346872006B1E49 /* QuizSplash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +272,7 @@
 				1EBD3E33153448FD006B1E49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
